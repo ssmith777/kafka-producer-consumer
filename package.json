@@ -1,0 +1,28 @@
+{
+	"name": "kafka-producer-consumer",
+	"version": "1.0.0",
+	"description": "Kafka Producer and Consumer Example",
+	"main": "index.js",
+	"scripts": {
+		"start:producer": "node ./producer/index.js",
+		"start:consumer": "node ./consumer/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ssmith777/kafka-producer-consumer.git"
+	},
+	"keywords": [
+		"Node",
+		"Kafka"
+	],
+	"author": "ssmith",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ssmith777/kafka-producer-consumer/issues"
+	},
+	"homepage": "https://github.com/ssmith777/kafka-producer-consumer#readme",
+	"dependencies": {
+		"avsc": "^5.7.3",
+		"node-rdkafka": "^2.11.0"
+	}
+}
